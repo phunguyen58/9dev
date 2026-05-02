@@ -1,0 +1,1306 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>9dev - Your AI Partner for Growth</title>
+    <meta
+      name="description"
+      content="9dev builds custom AI solutions that integrate into your workflow to accelerate growth."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="9dev Software Solutions" />
+    <meta name="theme-color" content="#0A0A0B" />
+    <meta name="keywords" content="9dev, AI solutions, software outsourcing, UI UX, ecommerce, Vietnam" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="9dev | AI & Software Solutions" />
+    <meta
+      property="og:description"
+      content="9dev delivers AI solutions, software outsourcing, UI/UX, and technical consulting for modern businesses."
+    />
+    <meta property="og:image" content="assets/logo.jpg" />
+    <meta property="og:site_name" content="9dev" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="9dev | AI & Software Solutions" />
+    <meta
+      name="twitter:description"
+      content="AI-powered products and software services tailored for high-growth businesses."
+    />
+    <meta name="twitter:image" content="assets/logo.jpg" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png" />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed": "#a8edff",
+              "on-secondary-container": "#b4b5b5",
+              "inverse-surface": "#e5e2e3",
+              "on-secondary-fixed-variant": "#454747",
+              "on-error-container": "#ffdad6",
+              tertiary: "#c1f2ff",
+              "surface-bright": "#3a393a",
+              "surface-container-high": "#2a2a2b",
+              "on-surface": "#e5e2e3",
+              "on-tertiary-fixed-variant": "#004e5b",
+              outline: "#9a9078",
+              "on-secondary-fixed": "#1a1c1c",
+              "secondary-container": "#454747",
+              "on-surface-variant": "#d1c5ab",
+              "on-secondary": "#2f3131",
+              "primary-container": "#f9c80e",
+              surface: "#131314",
+              "on-tertiary-container": "#00606f",
+              "surface-tint": "#f1c100",
+              "secondary-fixed-dim": "#c6c6c7",
+              "on-tertiary": "#00363f",
+              "surface-dim": "#131314",
+              primary: "#ffe8ae",
+              "on-primary-fixed": "#241a00",
+              "on-tertiary-fixed": "#001f25",
+              "inverse-primary": "#745b00",
+              "on-primary-container": "#6b5400",
+              "on-error": "#690005",
+              "tertiary-container": "#3ae0ff",
+              background: "#131314",
+              "secondary-fixed": "#e2e2e2",
+              "on-primary": "#3d2f00",
+              "on-background": "#e5e2e3",
+              "surface-container-low": "#1c1b1c",
+              "surface-container-highest": "#353436",
+              "surface-variant": "#353436",
+              "primary-fixed-dim": "#f1c100",
+              "error-container": "#93000a",
+              "outline-variant": "#4e4632",
+              "inverse-on-surface": "#313031",
+              "primary-fixed": "#ffe08a",
+              secondary: "#c6c6c7",
+              "surface-container": "#201f20",
+              "on-primary-fixed-variant": "#574400",
+              "tertiary-fixed-dim": "#2cd9f7",
+              "surface-container-lowest": "#0e0e0f",
+              error: "#ffb4ab",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              gutter: "24px",
+              base: "8px",
+              lg: "48px",
+              sm: "12px",
+              md: "24px",
+              xs: "4px",
+              xl: "80px",
+              "container-max": "1200px",
+            },
+            fontFamily: {
+              "body-md": ["Inter"],
+              h3: ["Inter"],
+              h1: ["Inter"],
+              "label-sm": ["Inter"],
+              h2: ["Inter"],
+              "body-lg": ["Inter"],
+            },
+            fontSize: {
+              "body-md": [
+                "16px",
+                { lineHeight: "1.6", fontWeight: "400" },
+              ],
+              h3: [
+                "32px",
+                {
+                  lineHeight: "1.3",
+                  letterSpacing: "-0.01em",
+                  fontWeight: "600",
+                },
+              ],
+              h1: [
+                "64px",
+                {
+                  lineHeight: "1.1",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "label-sm": [
+                "14px",
+                {
+                  lineHeight: "1",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+              h2: [
+                "48px",
+                {
+                  lineHeight: "1.2",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "body-lg": [
+                "18px",
+                { lineHeight: "1.6", fontWeight: "400" },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-background text-on-background antialiased selection:bg-primary-container selection:text-on-primary-container"
+  >
+    <header
+      class="fixed top-0 z-50 w-full border-b border-zinc-900 bg-black/85 font-inter tracking-tight backdrop-blur-md"
+    >
+      <div class="mx-auto flex h-20 max-w-[1200px] items-center justify-between px-6">
+        <a
+          href="#"
+          class="flex cursor-pointer items-center active:opacity-80"
+        >
+          <img src="assets/logo_trans.jpg" alt="9dev logo" class="h-12 w-auto rounded-sm object-contain" />
+        </a>
+        <div class="flex items-center gap-md">
+          <nav id="main-nav" class="hidden gap-6 md:flex">
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#hero"
+              data-nav-target="hero"
+              data-i18n="navHome"
+              >Home</a
+            >
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#services"
+              data-nav-target="services"
+              data-i18n="navServices"
+              >Services</a
+            >
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#solutions"
+              data-nav-target="solutions"
+              ><span class="material-symbols-outlined mr-1 text-base align-[-3px]">auto_awesome</span><span data-i18n="navAISolutions">AI Solutions</span></a
+            >
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#products"
+              data-nav-target="products"
+              data-i18n="navPortfolio"
+              >Portfolio</a
+            >
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#blog"
+              data-nav-target="blog"
+              data-i18n="navBlog"
+              >Blog</a
+            >
+            <a
+              class="nav-link border-b-2 border-transparent pb-1 font-medium text-zinc-400 transition-colors duration-200 hover:text-white"
+              href="#contact"
+              data-nav-target="contact"
+              data-i18n="navContact"
+              >Contact</a
+            >
+          </nav>
+          <button
+            id="lang-toggle"
+            class="rounded-full border border-outline px-4 py-2 font-label-sm text-label-sm transition-colors hover:border-primary-container hover:text-primary-container"
+            type="button"
+            aria-label="Toggle language"
+          >
+            EN / VI
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="pt-20">
+      <aside class="fixed right-5 top-1/2 z-40 hidden -translate-y-1/2 lg:block">
+        <div id="section-dots" class="flex flex-col gap-3 rounded-full border border-surface-container-highest bg-black/40 p-3 backdrop-blur-sm">
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="hero" aria-label="Go to Home"></button>
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="services" aria-label="Go to Services"></button>
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="solutions" aria-label="Go to AI Solutions"></button>
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="products" aria-label="Go to Projects"></button>
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="blog" aria-label="Go to Blog"></button>
+          <button type="button" class="section-dot h-2.5 w-2.5 rounded-full bg-zinc-600 transition-all" data-dot-target="contact" aria-label="Go to Contact"></button>
+        </div>
+      </aside>
+
+      <section
+        id="hero"
+        class="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-6 py-xl"
+      >
+        <div class="absolute inset-0 z-0">
+          <div
+            class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-surface-container-high/40 via-background to-background"
+          ></div>
+          <div
+            class="absolute left-1/4 top-1/4 h-96 w-96 rounded-full bg-primary-container/10 blur-3xl mix-blend-screen"
+          ></div>
+          <div
+            class="absolute bottom-1/4 right-1/4 h-64 w-64 rounded-full bg-tertiary-container/10 blur-3xl mix-blend-screen"
+          ></div>
+        </div>
+        <div
+          class="relative z-10 mx-auto flex max-w-container-max flex-col items-center text-center"
+        >
+          <div
+            class="mb-8 inline-flex items-center gap-2 rounded-full border border-surface-container-highest bg-surface-container-low/50 px-4 py-2 backdrop-blur-sm"
+          >
+            <span class="material-symbols-outlined text-sm text-primary-container"
+              >auto_awesome</span
+            >
+            <span
+              class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant"
+              data-i18n="heroBadge"
+              >Future with AI</span
+            >
+          </div>
+          <h1 class="mb-6 max-w-4xl font-h1 text-h1 text-on-background">
+            <span data-i18n="heroTitleLead">Your AI Partner for</span>
+            <br>
+            <span class="text-primary-container" data-i18n="heroTitleAccent"
+              >Growth</span
+            >
+          </h1>
+          <p
+            class="mb-10 max-w-2xl font-body-lg text-body-lg text-on-surface-variant"
+            data-i18n="heroDescription"
+          >
+            We build custom artificial intelligence solutions that seamlessly
+            integrate into your workflow, driving unprecedented efficiency and
+            innovation.
+          </p>
+          <div class="flex flex-col gap-4 sm:flex-row">
+            <a
+              href="#solutions"
+              class="rounded-full bg-primary-container px-8 py-4 font-label-sm text-label-sm text-on-primary-container transition-all hover:bg-surface-tint hover:shadow-[0_0_20px_rgba(249,200,14,0.3)]"
+              data-i18n="heroPrimaryCta"
+              >Explore Solutions</a
+            >
+            <a
+              href="#contact"
+              class="rounded-full border border-outline px-8 py-4 font-label-sm text-label-sm text-on-background transition-colors hover:border-primary-container hover:text-primary-container"
+              data-i18n="heroSecondaryCta"
+              >Book Consultation</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="bg-surface-container-lowest px-6 py-xl">
+        <div class="mx-auto max-w-container-max">
+          <div class="mb-16 text-center">
+            <h2
+              class="mb-4 font-h2 text-h2 text-on-background"
+              data-i18n="coreServicesTitle"
+            >
+              Core Services
+            </h2>
+            <p
+              class="mx-auto max-w-2xl font-body-md text-body-md uppercase tracking-[0.3em] text-on-surface-variant"
+              data-i18n="coreServicesSubtitle"
+            >
+              Our technical pillars
+            </p>
+          </div>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5">
+            <article
+              class="group rounded-xl border border-primary-container/50 bg-gradient-to-br from-[#24210f] via-surface-container-low to-[#151516] p-8 transition-all duration-300 hover:border-primary-container hover:shadow-[0_0_30px_rgba(249,200,14,0.15)] lg:order-3"
+            >
+              <div
+                class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-container/15 transition-colors group-hover:bg-primary-container"
+              >
+                <span
+                  class="material-symbols-outlined text-primary-container group-hover:text-on-primary"
+                  style="font-variation-settings: 'FILL' 1"
+                  >auto_awesome</span
+                >
+              </div>
+              <h3 class="mb-2 text-xl font-h3 text-on-background" data-i18n="serviceAiTitle">
+                AI Solutions
+              </h3>
+              <p class="mb-4 text-sm text-on-surface-variant" data-i18n="serviceAiDesc">
+                Build and deploy practical AI systems that solve real business problems.
+              </p>
+              <ul class="space-y-2 text-xs text-on-surface-variant/80">
+                <li data-i18n="serviceAiPoint1">AI Assistants</li>
+                <li data-i18n="serviceAiPoint2">Automation Workflows</li>
+              </ul>
+            </article>
+            <article
+              class="group rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1f1f20] via-surface-container-low to-[#141415] p-8 transition-all duration-300 hover:border-primary-container/50 hover:shadow-[0_0_20px_rgba(249,200,14,0.08)] lg:order-1"
+            >
+              <div
+                class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-container/10 transition-colors group-hover:bg-primary-container"
+              >
+                <span class="material-symbols-outlined text-primary-container group-hover:text-on-primary"
+                  >developer_mode</span
+                >
+              </div>
+              <h3 class="mb-2 text-xl font-h3 text-on-background" data-i18n="service1Title">
+                Software Outsourcing
+              </h3>
+              <p class="mb-4 text-sm text-on-surface-variant" data-i18n="service1Desc">
+                Professional software outsourcing with quality delivery and transparent execution.
+              </p>
+              <ul class="space-y-2 text-xs text-on-surface-variant/80">
+                <li data-i18n="service1Point1">Web Development</li>
+                <li data-i18n="service1Point2">Mobile Applications</li>
+              </ul>
+            </article>
+            <article
+              class="group rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1c2023] via-surface-container-low to-[#131416] p-8 transition-all duration-300 hover:border-primary-container/50 hover:shadow-[0_0_20px_rgba(58,224,255,0.08)] lg:order-2"
+            >
+              <div
+                class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-container/10 transition-colors group-hover:bg-primary-container"
+              >
+                <span class="material-symbols-outlined text-primary-container group-hover:text-on-primary"
+                  >palette</span
+                >
+              </div>
+              <h3 class="mb-2 text-xl font-h3 text-on-background" data-i18n="service2Title">
+                UI/UX Design
+              </h3>
+              <p class="mb-4 text-sm text-on-surface-variant" data-i18n="service2Desc">
+                Modern UI/UX crafted to improve usability and increase conversion rates.
+              </p>
+              <ul class="space-y-2 text-xs text-on-surface-variant/80">
+                <li data-i18n="service2Point1">Wireframing</li>
+                <li data-i18n="service2Point2">Interactive Prototypes</li>
+              </ul>
+            </article>
+            <article
+              class="group rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1f1d22] via-surface-container-low to-[#141317] p-8 transition-all duration-300 hover:border-primary-container/50 hover:shadow-[0_0_20px_rgba(249,200,14,0.08)] lg:order-4"
+            >
+              <div
+                class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-container/10 transition-colors group-hover:bg-primary-container"
+              >
+                <span class="material-symbols-outlined text-primary-container group-hover:text-on-primary"
+                  >settings_suggest</span
+                >
+              </div>
+              <h3 class="mb-2 text-xl font-h3 text-on-background" data-i18n="service3Title">
+                System Implementation
+              </h3>
+              <p class="mb-4 text-sm text-on-surface-variant" data-i18n="service3Desc">
+                End-to-end system implementation for enterprise operations and scale.
+              </p>
+              <ul class="space-y-2 text-xs text-on-surface-variant/80">
+                <li data-i18n="service3Point1">ERP / CRM Systems</li>
+                <li data-i18n="service3Point2">Cloud Infrastructure</li>
+              </ul>
+            </article>
+            <article
+              class="group rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1b2020] via-surface-container-low to-[#131616] p-8 transition-all duration-300 hover:border-primary-container/50 hover:shadow-[0_0_20px_rgba(58,224,255,0.08)] lg:order-5"
+            >
+              <div
+                class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary-container/10 transition-colors group-hover:bg-primary-container"
+              >
+                <span class="material-symbols-outlined text-primary-container group-hover:text-on-primary"
+                  >psychology</span
+                >
+              </div>
+              <h3 class="mb-2 text-xl font-h3 text-on-background" data-i18n="service4Title">
+                Tech Consulting
+              </h3>
+              <p class="mb-4 text-sm text-on-surface-variant" data-i18n="service4Desc">
+                Strategic consulting to help teams prioritize, execute, and scale with confidence.
+              </p>
+              <ul class="space-y-2 text-xs text-on-surface-variant/80">
+                <li data-i18n="service4Point1">Digital Strategy</li>
+                <li data-i18n="service4Point2">Tech Stack Audit</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="border-y border-outline-variant bg-surface-container-low px-6 py-xl">
+        <div class="mx-auto grid max-w-container-max grid-cols-1 items-center gap-16 lg:grid-cols-2">
+          <div class="relative order-2 lg:order-1">
+            <div class="overflow-hidden rounded-xl border border-surface-container-highest bg-surface-container p-8">
+              <div class="mb-8 flex gap-3">
+                <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                <div class="h-3 w-3 rounded-full bg-green-500"></div>
+              </div>
+              <div class="space-y-4 opacity-80">
+                <div class="h-2 w-3/4 rounded bg-surface-container-highest"></div>
+                <div class="h-2 w-1/2 rounded bg-surface-container-highest"></div>
+                <div class="h-2 w-5/6 rounded bg-primary-container/40"></div>
+                <div class="h-2 w-2/3 rounded bg-surface-container-highest"></div>
+              </div>
+              <div class="mt-12 rounded-lg border border-surface-container-highest bg-surface-container-lowest p-4">
+                <div class="flex items-center justify-between">
+                  <span class="text-[10px] font-label-sm uppercase tracking-widest text-on-surface-variant" data-i18n="statusLabel">Engineering Status</span>
+                  <span class="text-xs font-bold uppercase text-primary-container" data-i18n="statusValue">Optimal</span>
+                </div>
+              </div>
+            </div>
+            <div class="absolute -bottom-8 -right-4 hidden rounded-xl bg-primary-container p-6 md:block">
+              <span class="block text-4xl font-black tracking-tighter text-on-primary">99.9%</span>
+              <span class="block text-[10px] font-bold uppercase tracking-widest text-on-primary" data-i18n="uptimeLabel">Uptime Excellence</span>
+            </div>
+          </div>
+          <div class="order-1 lg:order-2">
+            <h2 class="mb-8 font-h2 text-h2 text-on-background" data-i18n="whyTitle">
+              Why Partner with 9dev?
+            </h2>
+            <div class="space-y-8">
+              <div class="flex gap-5">
+                <div class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-primary-container">
+                  <span class="material-symbols-outlined text-primary-container">star</span>
+                </div>
+                <div>
+                  <h4 class="mb-2 text-lg font-h3 text-on-background" data-i18n="why1Title">Technical Excellence</h4>
+                  <p class="font-body-md text-on-surface-variant" data-i18n="why1Desc">Top-tier engineers focused on scalable, secure, and maintainable systems.</p>
+                </div>
+              </div>
+              <div class="flex gap-5">
+                <div class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-primary-container">
+                  <span class="material-symbols-outlined text-primary-container">translate</span>
+                </div>
+                <div>
+                  <h4 class="mb-2 text-lg font-h3 text-on-background" data-i18n="why2Title">Bilingual Mastery</h4>
+                  <p class="font-body-md text-on-surface-variant" data-i18n="why2Desc">Fluent English and Vietnamese communication for smooth local-global collaboration.</p>
+                </div>
+              </div>
+              <div class="flex gap-5">
+                <div class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full border border-primary-container">
+                  <span class="material-symbols-outlined text-primary-container">groups</span>
+                </div>
+                <div>
+                  <h4 class="mb-2 text-lg font-h3 text-on-background" data-i18n="why3Title">Client-Centric Delivery</h4>
+                  <p class="font-body-md text-on-surface-variant" data-i18n="why3Desc">Solutions are aligned with your business goals, budget, and timeline from day one.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" class="relative overflow-hidden px-6 py-xl">
+        <div
+          class="absolute right-0 top-0 z-0 h-full w-1/2 bg-gradient-to-l from-surface-container-high/30 to-transparent"
+        ></div>
+        <div class="relative z-10 mx-auto max-w-container-max">
+          <div class="mb-16">
+            <h2
+              class="mb-4 bg-gradient-to-r from-primary-container via-[#ffe8ae] to-tertiary-container bg-clip-text font-h2 text-h2 text-transparent"
+              data-i18n="powerTitle"
+            >
+              See the AI Power
+            </h2>
+            <p
+              class="max-w-xl font-body-md text-body-md text-on-surface-variant"
+              data-i18n="powerSubtitle"
+            >
+              Experience intuitive interfaces that make advanced machine
+              learning accessible across your organization.
+            </p>
+          </div>
+
+          <div class="grid auto-rows-[300px] grid-cols-1 gap-6 lg:grid-cols-12">
+            <article
+              class="group relative overflow-hidden rounded-xl border border-surface-container-highest bg-surface-container-low lg:col-span-8"
+            >
+              <img
+                src="assets/landing-reference.png"
+                alt="9dev AI interface concept"
+                class="absolute inset-0 h-full w-full object-cover opacity-40 mix-blend-overlay transition-opacity duration-500 group-hover:opacity-50"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"
+              ></div>
+              <div class="absolute bottom-0 left-0 w-full p-8">
+                <div class="mb-3 flex items-center gap-3">
+                  <span
+                    class="material-symbols-outlined rounded-lg bg-surface-container/50 p-2 text-primary-container backdrop-blur-sm"
+                    >smart_toy</span
+                  >
+                  <h3
+                    class="text-3xl font-h3 text-h3 text-on-background"
+                    data-i18n="feature1Title"
+                  >
+                    AI Assistant
+                  </h3>
+                </div>
+                <p
+                  class="max-w-lg font-body-md text-body-md text-on-surface-variant"
+                  data-i18n="feature1Desc"
+                >
+                  Context-aware conversational agents that understand your
+                  proprietary data and execute complex tasks.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="group relative flex flex-col justify-end overflow-hidden rounded-xl border border-surface-container-highest bg-surface-container-low p-8 lg:col-span-4"
+            >
+              <div
+                class="absolute right-0 top-0 p-6 opacity-10 transition-opacity group-hover:opacity-20"
+              >
+                <span class="material-symbols-outlined text-9xl text-primary-container"
+                  >edit_document</span
+                >
+              </div>
+              <div class="relative z-10">
+                <h3
+                  class="mb-2 text-2xl font-h3 text-h3 text-on-background"
+                  data-i18n="feature2Title"
+                >
+                  Smart Content
+                </h3>
+                <p
+                  class="font-body-md text-body-md text-on-surface-variant"
+                  data-i18n="feature2Desc"
+                >
+                  Automated generation and optimization of high-converting copy
+                  and assets.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="group relative flex flex-col items-center justify-between gap-8 overflow-hidden rounded-xl border border-surface-container-highest bg-surface-container-low p-8 md:flex-row lg:col-span-12"
+            >
+              <div
+                class="absolute inset-0 bg-[radial-gradient(circle_at_right,_var(--tw-gradient-stops))] from-primary-container/5 via-transparent to-transparent"
+              ></div>
+              <div class="relative z-10 max-w-xl">
+                <div class="mb-3 flex items-center gap-3">
+                  <span class="material-symbols-outlined text-primary-container"
+                    >monitoring</span
+                  >
+                  <h3
+                    class="text-2xl font-h3 text-h3 text-on-background"
+                    data-i18n="feature3Title"
+                  >
+                    Data Visualization
+                  </h3>
+                </div>
+                <p
+                  class="font-body-md text-body-md text-on-surface-variant"
+                  data-i18n="feature3Desc"
+                >
+                  Transform raw data into predictive insights with elegant and
+                  interactive dashboards.
+                </p>
+              </div>
+              <div class="relative z-10 flex h-32 w-full items-end gap-2 px-4 md:w-1/3">
+                <div class="h-1/3 w-1/5 rounded-t-sm bg-surface-container-highest"></div>
+                <div class="h-2/3 w-1/5 rounded-t-sm bg-surface-container-highest"></div>
+                <div
+                  class="h-full w-1/5 rounded-t-sm bg-primary-container shadow-[0_0_15px_rgba(249,200,14,0.3)]"
+                ></div>
+                <div class="h-1/2 w-1/5 rounded-t-sm bg-surface-container-highest"></div>
+                <div class="h-3/4 w-1/5 rounded-t-sm bg-surface-container-highest"></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="bg-surface-container-lowest px-6 py-xl">
+        <div class="mx-auto max-w-container-max">
+          <div class="mb-14 text-center">
+            <h2
+              class="mb-4 bg-gradient-to-r from-primary-container via-[#ffe8ae] to-tertiary-container bg-clip-text font-h2 text-h2 text-transparent"
+              data-i18n="productsTitle"
+            >
+              Our Products
+            </h2>
+            <p class="mx-auto max-w-3xl font-body-md text-body-md text-on-surface-variant" data-i18n="productsSubtitle">
+              Real products built by 9dev, combining AI and practical business applications for Vietnamese users.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            <article class="overflow-hidden rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1f1f20] via-surface-container-low to-[#141415]">
+              <img src="assets/interview68.jpg" alt="Interview68 AI mock interview demo" class="h-48 w-full object-cover opacity-75" />
+              <div class="p-6">
+                <h3 class="mb-2 text-xl font-h3 text-on-background">interview68.com</h3>
+                <p class="mb-4 font-body-md text-body-md text-on-surface-variant" data-i18n="product1Desc">
+                  AI-powered mock interview platform that helps candidates practice communication, role-fit, and confidence before real interviews.
+                </p>
+                <a href="https://interview68.com" target="_blank" rel="noopener noreferrer" class="font-label-sm text-label-sm text-primary-container hover:underline" data-i18n="visitWebsite">Visit Website</a>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1c2023] via-surface-container-low to-[#131416]">
+              <img src="assets/vaymuanha.jpg" alt="Vay Mua Nha AI mortgage prediction demo" class="h-48 w-full object-cover opacity-75" />
+              <div class="p-6">
+                <h3 class="mb-2 text-xl font-h3 text-on-background">vaymuanha.vn</h3>
+                <p class="mb-4 font-body-md text-body-md text-on-surface-variant" data-i18n="product2Desc">
+                  AI assistant for home-loan risk prediction and smart home buying consultation tailored to Vietnamese market conditions.
+                </p>
+                <a href="https://vaymuanha.vn" target="_blank" rel="noopener noreferrer" class="font-label-sm text-label-sm text-primary-container hover:underline" data-i18n="visitWebsite">Visit Website</a>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1f1d22] via-surface-container-low to-[#141317]">
+              <img src="assets/lotovietnam.jpg" alt="Loto Vietnam traditional game platform demo" class="h-48 w-full object-cover opacity-75" />
+              <div class="p-6">
+                <h3 class="mb-2 text-xl font-h3 text-on-background">lotovietnam.com</h3>
+                <p class="mb-4 font-body-md text-body-md text-on-surface-variant" data-i18n="product3Desc">
+                  Digital platform modernizing Vietnamese traditional game experiences with engaging gameplay and scalable backend systems.
+                </p>
+                <a href="https://lotovietnam.com" target="_blank" rel="noopener noreferrer" class="font-label-sm text-label-sm text-primary-container hover:underline" data-i18n="visitWebsite">Visit Website</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-14">
+            <h3 class="mb-6 text-2xl font-h3 text-on-background" data-i18n="ecomTitle">
+              10+ Ecommerce websites delivered for clients
+            </h3>
+            <p class="mb-5 text-sm text-on-surface-variant" data-i18n="ecomInteractiveHint">
+              Click each case to preview project scale, timeline, and delivery scope.
+            </p>
+            <div class="grid grid-cols-1 gap-6 lg:grid-cols-12">
+              <div id="project-list" class="space-y-3 lg:col-span-4"></div>
+              <div class="rounded-xl border border-surface-container-highest bg-gradient-to-br from-[#1f1f20] via-surface-container-low to-[#141415] p-6 lg:col-span-8">
+                <div class="mb-4 flex items-center gap-3">
+                  <span class="material-symbols-outlined rounded-lg bg-primary-container/15 p-2 text-primary-container">deployed_code</span>
+                  <h4 id="project-name" class="text-xl font-h3 text-on-background"></h4>
+                </div>
+                <p id="project-summary" class="mb-5 font-body-md text-body-md text-on-surface-variant"></p>
+                <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div class="rounded-lg border border-surface-container-highest bg-surface-container-low p-4">
+                    <p class="mb-1 text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="projectScaleLabel">Project Scale</p>
+                    <p id="project-scale" class="font-body-md text-on-background"></p>
+                  </div>
+                  <div class="rounded-lg border border-surface-container-highest bg-surface-container-low p-4">
+                    <p class="mb-1 text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="projectTimelineLabel">Timeline</p>
+                    <p id="project-timeline" class="font-body-md text-on-background"></p>
+                  </div>
+                  <div class="rounded-lg border border-surface-container-highest bg-surface-container-low p-4">
+                    <p class="mb-1 text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="projectScopeLabel">Delivery Scope</p>
+                    <p id="project-scope" class="font-body-md text-on-background"></p>
+                  </div>
+                  <div class="rounded-lg border border-surface-container-highest bg-surface-container-low p-4">
+                    <p class="mb-1 text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="projectImpactLabel">Business Impact</p>
+                    <p id="project-impact" class="font-body-md text-on-background"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="px-6 py-xl">
+        <div class="mx-auto max-w-container-max">
+          <div class="relative overflow-hidden rounded-2xl border border-surface-container-highest bg-gradient-to-br from-[#151516] via-surface-container to-[#101011] p-10 md:p-14">
+            <div class="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-primary-container/10 blur-3xl"></div>
+            <div class="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-tertiary-container/10 blur-3xl"></div>
+            <div class="relative z-10 max-w-3xl">
+              <p class="mb-3 text-xs uppercase tracking-[0.25em] text-primary-container" data-i18n="blogLabel">Knowledge & Insights</p>
+              <h2 class="mb-4 font-h2 text-h2 text-on-background" data-i18n="blogTitle">From our Blog</h2>
+              <p class="mb-8 font-body-md text-body-md text-on-surface-variant" data-i18n="blogDesc">
+                Explore engineering notes, AI implementation stories, and practical lessons from projects and product building.
+              </p>
+              <a
+                href="https://blog.9dev.xyz/blog/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-block rounded-full bg-primary-container px-8 py-4 font-label-sm text-label-sm text-on-primary-container transition-all hover:bg-surface-tint hover:shadow-[0_0_20px_rgba(249,200,14,0.3)]"
+                data-i18n="blogCta"
+                >Visit Blog</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="px-6 py-xl">
+        <div
+          class="relative mx-auto max-w-4xl overflow-hidden rounded-2xl border border-outline-variant bg-surface-container-high p-12 text-center"
+        >
+          <div
+            class="absolute -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary-container/10 blur-2xl h-32 w-32 left-0 top-0"
+          ></div>
+          <div
+            class="absolute bottom-0 right-0 h-32 w-32 translate-x-1/2 translate-y-1/2 rounded-full bg-primary-container/10 blur-2xl"
+          ></div>
+          <div class="relative z-10">
+            <h2
+              class="mb-6 font-h2 text-h2 text-on-background"
+              data-i18n="ctaTitle"
+            >
+              Ready to integrate AI?
+            </h2>
+            <p
+              class="mx-auto mb-8 max-w-2xl font-body-lg text-body-lg text-on-surface-variant"
+              data-i18n="ctaDesc"
+            >
+              Partner with 9dev to turn ideas into production-ready AI systems.
+            </p>
+            <div class="mx-auto flex max-w-2xl flex-col gap-4 text-left sm:flex-row">
+              <a
+                href="tel:0335886430"
+                class="flex-1 rounded-xl border border-primary-container/40 bg-surface-container-low p-4 transition-colors hover:border-primary-container"
+              >
+                <p class="text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="contactPhoneLabel">Phone</p>
+                <p class="mt-1 text-lg font-semibold text-on-background">0335886430</p>
+                <p class="mt-1 text-sm text-primary-container" data-i18n="contactChannels">Zalo / Telegram</p>
+              </a>
+              <a
+                href="mailto:nvphu0508@gmail.com"
+                class="flex-1 rounded-xl border border-primary-container/40 bg-surface-container-low p-4 transition-colors hover:border-primary-container"
+              >
+                <p class="text-xs uppercase tracking-widest text-on-surface-variant" data-i18n="contactEmailLabel">Email</p>
+                <p class="mt-1 text-lg font-semibold text-on-background break-all">nvphu0508@gmail.com</p>
+                <p class="mt-1 text-sm text-primary-container" data-i18n="contactEmailAction">Send us your project brief</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      id="portfolio"
+      class="w-full border-t border-zinc-900 bg-black"
+    >
+      <div class="mx-auto flex w-full max-w-[1200px] flex-col items-center justify-between gap-8 px-6 py-16 text-sm font-inter md:flex-row">
+      <div class="flex items-center">
+        <img src="assets/logo_trans.jpg" alt="9dev logo" class="h-12 w-auto rounded-sm object-contain" />
+      </div>
+      <nav class="flex flex-wrap justify-center gap-6">
+        <a
+          class="text-zinc-500 transition-colors duration-300 hover:text-yellow-400"
+          href="#services"
+          data-i18n="footerServices"
+          >Services</a
+        >
+        <a
+          class="text-zinc-500 transition-colors duration-300 hover:text-yellow-400"
+          href="#portfolio"
+          data-i18n="footerPortfolio"
+          >Portfolio</a
+        >
+        <a
+          class="text-zinc-500 transition-colors duration-300 hover:text-yellow-400"
+          href="#solutions"
+          data-i18n="footerAISolutions"
+          >AI Solutions</a
+        >
+        <a
+          class="text-zinc-500 transition-colors duration-300 hover:text-yellow-400"
+          href="https://blog.9dev.xyz/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="footerBlog"
+          >Blog</a
+        >
+        <a
+          class="text-zinc-500 transition-colors duration-300 hover:text-yellow-400"
+          href="#contact"
+          data-i18n="footerContact"
+          >Contact</a
+        >
+      </nav>
+      <div class="text-center text-yellow-400 md:text-right" data-i18n="footerCopy">
+        © 2026 9dev Software Consultancy. Engineering Excellence.
+      </div>
+      </div>
+    </footer>
+
+    <script>
+      const translations = {
+        en: {
+          navHome: "Home",
+          navServices: "Services",
+          navPortfolio: "Portfolio",
+          navAISolutions: "AI Solutions",
+          navBlog: "Blog",
+          navContact: "Contact",
+          heroBadge: "Engineering Excellence",
+          heroTitleLead: "Engineering the Future of",
+          heroTitleAccent: "Your Business",
+          heroDescription:
+            "Top-tier AI, software outsourcing, UI/UX design, and technical consulting tailored for ambitious teams in fast-growing markets.",
+          heroPrimaryCta: "Explore Solutions",
+          heroSecondaryCta: "Book Consultation",
+          coreServicesTitle: "Core Services",
+          coreServicesSubtitle: "Our technical pillars",
+          serviceAiTitle: "AI Solutions",
+          serviceAiDesc:
+            "Build and deploy practical AI systems that solve real business problems.",
+          serviceAiPoint1: "AI Assistants",
+          serviceAiPoint2: "Automation Workflows",
+          service1Title: "Software Outsourcing",
+          service1Desc:
+            "Professional software outsourcing with quality delivery and transparent execution.",
+          service1Point1: "Web Development",
+          service1Point2: "Mobile Applications",
+          service2Title: "UI/UX Design",
+          service2Desc:
+            "Modern UI/UX crafted to improve usability and increase conversion rates.",
+          service2Point1: "Wireframing",
+          service2Point2: "Interactive Prototypes",
+          service3Title: "System Implementation",
+          service3Desc:
+            "End-to-end system implementation for enterprise operations and scale.",
+          service3Point1: "ERP / CRM Systems",
+          service3Point2: "Cloud Infrastructure",
+          service4Title: "Tech Consulting",
+          service4Desc:
+            "Strategic consulting to help teams prioritize, execute, and scale with confidence.",
+          service4Point1: "Digital Strategy",
+          service4Point2: "Tech Stack Audit",
+          whyTitle: "Why Partner with 9dev?",
+          why1Title: "Technical Excellence",
+          why1Desc:
+            "Top-tier engineers focused on scalable, secure, and maintainable systems.",
+          why2Title: "Bilingual Mastery",
+          why2Desc:
+            "Fluent English and Vietnamese communication for smooth local-global collaboration.",
+          why3Title: "Client-Centric Delivery",
+          why3Desc:
+            "Solutions are aligned with your business goals, budget, and timeline from day one.",
+          statusLabel: "Engineering Status",
+          statusValue: "Optimal",
+          uptimeLabel: "Uptime Excellence",
+          productsTitle: "Our Products",
+          productsSubtitle:
+            "Real products built by 9dev, combining AI and practical business applications for Vietnamese users.",
+          blogLabel: "Knowledge & Insights",
+          blogTitle: "From our Blog",
+          blogDesc:
+            "Explore engineering notes, AI implementation stories, and practical lessons from projects and product building.",
+          blogCta: "Visit Blog",
+          product1Desc:
+            "AI-powered mock interview platform that helps candidates practice communication, role-fit, and confidence before real interviews.",
+          product2Desc:
+            "AI assistant for home-loan risk prediction and smart home buying consultation tailored to Vietnamese market conditions.",
+          product3Desc:
+            "Digital platform modernizing Vietnamese traditional game experiences with engaging gameplay and scalable backend systems.",
+          visitWebsite: "Visit Website",
+          ecomTitle: "10+ Ecommerce websites delivered for clients",
+          ecomInteractiveHint:
+            "Click each case to preview project scale, timeline, and delivery scope.",
+          projectScaleLabel: "Project Scale",
+          projectTimelineLabel: "Timeline",
+          projectScopeLabel: "Delivery Scope",
+          projectImpactLabel: "Business Impact",
+          ecomNote:
+            "For client confidentiality, we do not publish brand names or screenshots publicly. Contact us for a private portfolio walkthrough.",
+          privatePortfolioCta: "Request private portfolio",
+          powerTitle: "See the AI Power",
+          powerSubtitle:
+            "Experience intuitive interfaces that make advanced machine learning accessible across your organization.",
+          feature1Title: "AI Assistant",
+          feature1Desc:
+            "Context-aware conversational agents that understand your proprietary data and execute complex tasks.",
+          feature2Title: "Smart Content",
+          feature2Desc:
+            "Automated generation and optimization of high-converting copy and assets.",
+          feature3Title: "Data Visualization",
+          feature3Desc:
+            "Transform raw data into predictive insights with elegant and interactive dashboards.",
+          ctaTitle: "Ready to integrate AI?",
+          ctaDesc:
+            "Partner with 9dev to turn ideas into production-ready AI systems.",
+          contactPhoneLabel: "Phone",
+          contactChannels: "Zalo / Telegram",
+          contactEmailLabel: "Email",
+          contactEmailAction: "Send us your project brief",
+          footerServices: "Services",
+          footerPortfolio: "Portfolio",
+          footerAISolutions: "AI Solutions",
+          footerBlog: "Blog",
+          footerContact: "Contact",
+          footerCopy:
+            "© 2026 9dev Software Consultancy. Engineering Excellence.",
+        },
+        vi: {
+          navHome: "Trang chủ",
+          navServices: "Dịch vụ",
+          navPortfolio: "Dự án",
+          navAISolutions: "Giải pháp AI",
+          navBlog: "Blog",
+          navContact: "Liên hệ",
+          heroBadge: "Chuẩn mực kỹ thuật vượt trội",
+          heroTitleLead: "Kiến tạo doanh nghiệp",
+          heroTitleAccent: "bằng sức mạnh của AI",
+          heroDescription:
+            "9dev cung cấp dịch vụ AI, gia công phần mềm, UI/UX và tư vấn kỹ thuật giúp doanh nghiệp Việt tăng tốc chuyển đổi số một cách bền vững.",
+          heroPrimaryCta: "Khám phá giải pháp AI",
+          heroSecondaryCta: "Đặt lịch tư vấn",
+          coreServicesTitle: "Dịch vụ trọng tâm",
+          coreServicesSubtitle: "Năng lực kỹ thuật cốt lõi",
+          serviceAiTitle: "Giải pháp AI",
+          serviceAiDesc:
+            "Xây dựng và triển khai các hệ thống AI thực tiễn, giải quyết trực tiếp bài toán kinh doanh.",
+          serviceAiPoint1: "Trợ lý AI cho doanh nghiệp",
+          serviceAiPoint2: "Quy trình tự động hóa thông minh",
+          service1Title: "Gia công phần mềm",
+          service1Desc:
+            "Gia công phần mềm chuyên nghiệp, cam kết chất lượng đầu ra và tiến độ minh bạch.",
+          service1Point1: "Phát triển ứng dụng Web",
+          service1Point2: "Phát triển ứng dụng Mobile",
+          service2Title: "Thiết kế UI/UX",
+          service2Desc:
+            "Thiết kế UI/UX hiện đại, nâng cao trải nghiệm người dùng và tỷ lệ chuyển đổi.",
+          service2Point1: "Wireframing",
+          service2Point2: "Interactive Prototypes",
+          service3Title: "Triển khai hệ thống",
+          service3Desc:
+            "Triển khai hệ thống đầu-cuối, tích hợp phù hợp với vận hành doanh nghiệp và khả năng mở rộng.",
+          service3Point1: "Hệ thống ERP / CRM",
+          service3Point2: "Hạ tầng Cloud",
+          service4Title: "Tư vấn công nghệ",
+          service4Desc:
+            "Tư vấn chiến lược giúp đội ngũ ưu tiên đúng việc, triển khai hiệu quả và mở rộng an toàn.",
+          service4Point1: "Chiến lược chuyển đổi số",
+          service4Point2: "Đánh giá Tech Stack",
+          whyTitle: "Vì sao nên chọn 9dev?",
+          why1Title: "Năng lực kỹ thuật vững chắc",
+          why1Desc:
+            "Đội ngũ kỹ sư giàu kinh nghiệm, tập trung vào hệ thống bảo mật, dễ mở rộng và dễ bảo trì.",
+          why2Title: "Làm việc song ngữ linh hoạt",
+          why2Desc:
+            "Giao tiếp trôi chảy tiếng Việt - tiếng Anh, giúp phối hợp hiệu quả với cả đội ngũ nội địa và quốc tế.",
+          why3Title: "Lấy mục tiêu khách hàng làm trung tâm",
+          why3Desc:
+            "Mọi giải pháp đều bám sát mục tiêu kinh doanh, ngân sách và mốc thời gian thực tế của doanh nghiệp.",
+          statusLabel: "Trạng thái triển khai",
+          statusValue: "Tối ưu",
+          uptimeLabel: "Vận hành ổn định 99.9%",
+          productsTitle: "Sản phẩm của chúng tôi",
+          productsSubtitle:
+            "Các sản phẩm thực tế do 9dev phát triển, kết hợp AI và ứng dụng kinh doanh phù hợp người dùng Việt Nam.",
+          blogLabel: "Kiến thức & Góc nhìn",
+          blogTitle: "Từ Blog của 9dev",
+          blogDesc:
+            "Khám phá chia sẻ kỹ thuật, câu chuyện triển khai AI và các bài học thực chiến từ dự án thực tế.",
+          blogCta: "Xem Blog",
+          product1Desc:
+            "Nền tảng phỏng vấn thử ứng dụng AI, giúp ứng viên luyện giao tiếp, phản xạ và sự tự tin trước buổi phỏng vấn thực tế.",
+          product2Desc:
+            "Trợ lý AI dự đoán rủi ro nợ vay mua nhà và tư vấn phương án mua nhà phù hợp theo bối cảnh thị trường Việt Nam.",
+          product3Desc:
+            "Nền tảng số hóa trò chơi truyền thống Việt Nam với trải nghiệm hấp dẫn và hệ thống vận hành có khả năng mở rộng.",
+          visitWebsite: "Xem website",
+          ecomTitle: "10+ website ecommerce đã triển khai cho khách hàng",
+          ecomInteractiveHint:
+            "Bấm vào từng dự án để xem nhanh quy mô, thời gian và phạm vi triển khai.",
+          projectScaleLabel: "Quy mô dự án",
+          projectTimelineLabel: "Thời gian triển khai",
+          projectScopeLabel: "Phạm vi thực hiện",
+          projectImpactLabel: "Hiệu quả kinh doanh",
+          ecomNote:
+            "Để bảo mật thông tin khách hàng, chúng tôi không công khai tên thương hiệu và hình ảnh dự án. Vui lòng liên hệ để xem portfolio riêng.",
+          privatePortfolioCta: "Yêu cầu xem portfolio riêng",
+          powerTitle: "Khám phá sức mạnh AI",
+          powerSubtitle:
+            "Giao diện trực quan giúp các công nghệ AI phức tạp trở nên dễ tiếp cận cho mọi bộ phận trong doanh nghiệp.",
+          feature1Title: "Trợ lý AI",
+          feature1Desc:
+            "Trợ lý hội thoại hiểu ngữ cảnh, nắm dữ liệu nội bộ và xử lý hiệu quả các tác vụ phức tạp.",
+          feature2Title: "Nội dung thông minh",
+          feature2Desc:
+            "Tự động tạo và tối ưu nội dung, tài sản truyền thông nhằm nâng cao tỷ lệ chuyển đổi.",
+          feature3Title: "Trực quan hóa dữ liệu",
+          feature3Desc:
+            "Chuyển dữ liệu thô thành dự báo và góc nhìn hành động qua hệ thống dashboard trực quan, hiện đại.",
+          ctaTitle: "Sẵn sàng tích hợp AI?",
+          ctaDesc:
+            "Đồng hành cùng 9dev để biến ý tưởng thành giải pháp AI sẵn sàng vận hành trong thực tế.",
+          contactPhoneLabel: "Điện thoại",
+          contactChannels: "Zalo / Telegram",
+          contactEmailLabel: "Email",
+          contactEmailAction: "Gửi mô tả dự án cho chúng tôi",
+          footerServices: "Dịch vụ",
+          footerPortfolio: "Dự án",
+          footerAISolutions: "Giải pháp AI",
+          footerBlog: "Blog",
+          footerContact: "Liên hệ",
+          footerCopy: "© 2026 9dev Software Consultancy. Engineering Excellence.",
+        },
+      };
+
+      const langToggle = document.getElementById("lang-toggle");
+      const headerNavLinks = document.querySelectorAll("#main-nav .nav-link");
+      const sectionDots = document.querySelectorAll("#section-dots .section-dot");
+      const projectCases = {
+        en: [
+          {
+            name: "Sofa Ecommerce Platform (2024)",
+            summary:
+              "Built an ecommerce website for sofa retail with AI-powered customer support and product recommendations.",
+            scale: "Mid-size ecommerce operation",
+            timeline: "2024 delivery",
+            scope: "Ecommerce build, AI integration, SePay payment integration",
+            impact: "Smoother checkout and higher purchase confidence",
+          },
+          {
+            name: "Interior Company Website (2025)",
+            summary:
+              "Developed a corporate website for an interior business with AI support and project management workflows.",
+            scale: "Business operations and project teams",
+            timeline: "2025 delivery",
+            scope: "Corporate site, AI integration, interior project management features",
+            impact: "Better project visibility and faster internal coordination",
+          },
+          {
+            name: "Electronics Ecommerce Platform (2025)",
+            summary:
+              "Launched an electronics ecommerce website with AI consultant chatbot and SePay payment flow.",
+            scale: "Large product catalog and online sales operations",
+            timeline: "2025 delivery",
+            scope: "Ecommerce implementation, AI chatbot advisor, SePay payment integration",
+            impact: "Improved conversion support and faster customer decision-making",
+          },
+          {
+            name: "Fortune-Telling Platform (2026)",
+            summary:
+              "Built a digital astrology platform integrated with AI-driven analysis and personalized interpretation.",
+            scale: "Consumer-facing content platform",
+            timeline: "2026 delivery",
+            scope: "Web platform development, AI analysis engine, user interaction flows",
+            impact: "Higher engagement through personalized AI insights",
+          },
+        ],
+        vi: [
+          {
+            name: "Website Ecommerce Bán Sofa (2024)",
+            summary:
+              "Xây dựng website thương mại điện tử bán sofa, tích hợp AI hỗ trợ khách hàng và gợi ý sản phẩm.",
+            scale: "Quy mô ecommerce tầm trung",
+            timeline: "Triển khai năm 2024",
+            scope: "Xây dựng ecommerce, tích hợp AI, tích hợp thanh toán SePay",
+            impact: "Tăng trải nghiệm mua hàng và tối ưu quá trình thanh toán",
+          },
+          {
+            name: "Website Công Ty Nội Thất (2025)",
+            summary:
+              "Phát triển website doanh nghiệp nội thất, tích hợp AI và chức năng quản lý dự án nội thất.",
+            scale: "Phục vụ đội ngũ vận hành và quản lý dự án",
+            timeline: "Triển khai năm 2025",
+            scope: "Website công ty, tích hợp AI, module quản lý dự án nội thất",
+            impact: "Theo dõi tiến độ dự án rõ ràng và phối hợp nội bộ hiệu quả hơn",
+          },
+          {
+            name: "Website Ecommerce Điện Tử (2025)",
+            summary:
+              "Xây dựng website thương mại điện tử ngành hàng điện tử, tích hợp AI tư vấn viên chatbot và thanh toán SePay.",
+            scale: "Danh mục sản phẩm lớn, vận hành bán hàng online",
+            timeline: "Triển khai năm 2025",
+            scope: "Nền tảng ecommerce, chatbot tư vấn AI, tích hợp SePay",
+            impact: "Nâng cao khả năng tư vấn trước mua và hỗ trợ tăng chuyển đổi",
+          },
+          {
+            name: "Website Tử Vi AI (2026)",
+            summary:
+              "Xây dựng nền tảng tử vi trực tuyến, tích hợp AI để phân tích và cá nhân hóa nội dung theo người dùng.",
+            scale: "Nền tảng nội dung hướng đến người dùng đại chúng",
+            timeline: "Triển khai năm 2026",
+            scope: "Phát triển web app, tích hợp AI phân tích, tối ưu luồng tương tác người dùng",
+            impact: "Tăng mức độ tương tác nhờ nội dung phân tích cá nhân hóa",
+          },
+        ],
+      };
+      let currentLang = "en";
+      let activeProjectIndex = 0;
+      let isSectionScrolling = false;
+      let wheelLockUntil = 0;
+
+      function setActiveNav(targetId) {
+        headerNavLinks.forEach((link) => {
+          const isActive = link.dataset.navTarget === targetId;
+          link.classList.toggle("text-yellow-400", isActive);
+          link.classList.toggle("font-bold", isActive);
+          link.classList.toggle("border-yellow-400", isActive);
+          link.classList.toggle("text-zinc-400", !isActive);
+          link.classList.toggle("font-medium", !isActive);
+          link.classList.toggle("border-transparent", !isActive);
+        });
+      }
+
+      function setActiveDot(targetId) {
+        sectionDots.forEach((dot) => {
+          const isActive = dot.dataset.dotTarget === targetId;
+          dot.classList.toggle("bg-primary-container", isActive);
+          dot.classList.toggle("scale-125", isActive);
+          dot.classList.toggle("bg-zinc-600", !isActive);
+          dot.classList.toggle("scale-100", !isActive);
+        });
+      }
+
+      function updateActiveNavOnScroll() {
+        const sectionIds = ["hero", "services", "solutions", "products", "blog", "contact"];
+        let currentSection = sectionIds[0];
+        sectionIds.forEach((id) => {
+          const section = document.getElementById(id);
+          if (!section) return;
+          const top = section.getBoundingClientRect().top;
+          if (top <= 140) currentSection = id;
+        });
+        setActiveNav(currentSection);
+        setActiveDot(currentSection);
+      }
+
+      function getPageSections() {
+        return Array.from(
+          document.querySelectorAll("main > section[id], main > section:not([id])")
+        );
+      }
+
+      function getCurrentSectionIndex(sections) {
+        let idx = 0;
+        sections.forEach((section, i) => {
+          const top = section.getBoundingClientRect().top;
+          if (top <= 140) idx = i;
+        });
+        return idx;
+      }
+
+      function renderProjectDetails(lang, index) {
+        const data = projectCases[lang][index] || projectCases[lang][0];
+        document.getElementById("project-name").textContent = data.name;
+        document.getElementById("project-summary").textContent = data.summary;
+        document.getElementById("project-scale").textContent = data.scale;
+        document.getElementById("project-timeline").textContent = data.timeline;
+        document.getElementById("project-scope").textContent = data.scope;
+        document.getElementById("project-impact").textContent = data.impact;
+      }
+
+      function renderProjectList(lang) {
+        const list = document.getElementById("project-list");
+        list.innerHTML = "";
+        projectCases[lang].forEach((project, index) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className =
+            "w-full rounded-lg border p-4 text-left transition-all " +
+            (index === activeProjectIndex
+              ? "border-primary-container bg-primary-container/10"
+              : "border-surface-container-highest bg-surface-container-low hover:border-primary-container/60");
+          btn.innerHTML =
+            '<div class="mb-1 text-sm font-semibold text-on-background">' +
+            project.name +
+            '</div><div class="text-xs text-on-surface-variant">' +
+            project.timeline +
+            "</div>";
+          btn.addEventListener("click", () => {
+            activeProjectIndex = index;
+            renderProjectList(lang);
+            renderProjectDetails(lang, index);
+          });
+          list.appendChild(btn);
+        });
+      }
+
+      function applyLanguage(lang) {
+        document.documentElement.lang = lang;
+        document
+          .querySelectorAll("[data-i18n]")
+          .forEach((el) => (el.textContent = translations[lang][el.dataset.i18n]));
+        renderProjectList(lang);
+        renderProjectDetails(lang, activeProjectIndex);
+        langToggle.textContent = lang === "en" ? "EN / VI" : "VI / EN";
+        localStorage.setItem("9dev-lang", lang);
+      }
+
+      headerNavLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const targetId = link.dataset.navTarget;
+          if (targetId) setActiveNav(targetId);
+        });
+      });
+      sectionDots.forEach((dot) => {
+        dot.addEventListener("click", () => {
+          const targetId = dot.dataset.dotTarget;
+          const section = document.getElementById(targetId);
+          if (!section) return;
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+          setActiveNav(targetId);
+          setActiveDot(targetId);
+        });
+      });
+
+      // Full-page like scrolling: one wheel action -> one section
+      window.addEventListener(
+        "wheel",
+        (event) => {
+          if (window.innerWidth < 1024) return;
+          if (Math.abs(event.deltaY) < 18) return;
+          if (Date.now() < wheelLockUntil) {
+            event.preventDefault();
+            return;
+          }
+          if (isSectionScrolling) {
+            event.preventDefault();
+            return;
+          }
+
+          const sections = getPageSections();
+          if (!sections.length) return;
+
+          const currentIndex = getCurrentSectionIndex(sections);
+          const direction = event.deltaY > 0 ? 1 : -1;
+          const nextIndex = Math.min(
+            sections.length - 1,
+            Math.max(0, currentIndex + direction)
+          );
+
+          if (nextIndex === currentIndex) return;
+
+          event.preventDefault();
+          isSectionScrolling = true;
+          wheelLockUntil = Date.now() + 1100;
+          sections[nextIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+          setTimeout(() => {
+            isSectionScrolling = false;
+            updateActiveNavOnScroll();
+          }, 850);
+        },
+        { passive: false }
+      );
+      window.addEventListener("scroll", updateActiveNavOnScroll);
+
+      langToggle.addEventListener("click", () => {
+        currentLang = currentLang === "en" ? "vi" : "en";
+        applyLanguage(currentLang);
+      });
+
+      const savedLang = localStorage.getItem("9dev-lang");
+      if (savedLang && translations[savedLang]) {
+        currentLang = savedLang;
+      }
+      applyLanguage(currentLang);
+      updateActiveNavOnScroll();
+    </script>
+  </body>
+</html>
